@@ -142,7 +142,11 @@ namespace setPixelColorForArduino
             this.buttonCopiarClipBoard.Name = "buttonCopiarClipBoard";
             this.buttonCopiarClipBoard.Size = new System.Drawing.Size(116, 23);
             this.buttonCopiarClipBoard.TabIndex = 7;
+<<<<<<< HEAD
             this.buttonCopiarClipBoard.Text = "Copiar a ClipBoard";
+=======
+            this.buttonCopiarClipBoard.Text = "Copiar ClipBoard";
+>>>>>>> 41dc5f16a602f12e7604aaa66fb6b5525c937d3a
             this.buttonCopiarClipBoard.UseVisualStyleBackColor = true;
             this.buttonCopiarClipBoard.Click += new System.EventHandler(this.buttonCopiarClipBoard_Click);
             // 
