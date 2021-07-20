@@ -23,11 +23,7 @@ namespace setPixelColorForArduino
         {
             using (OpenFileDialog openImageFileDialog = new OpenFileDialog())
             {
-<<<<<<< HEAD
                 openImageFileDialog.Filter = "Archivos BMP (*.bmp)|*.bmp|Todos (*.*)|*.*";
-=======
-                openImageFileDialog.Filter = "Archivos bmp (*.bmp)| *.bmp | Todos los Archivos(*.*) | *.*";
->>>>>>> 41dc5f16a602f12e7604aaa66fb6b5525c937d3a
                 openImageFileDialog.RestoreDirectory = true;
                 if (openImageFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -66,11 +62,9 @@ namespace setPixelColorForArduino
                     }
                 }
                 this.textBoxCodigoArduinio.Text = setPixelColor;
-<<<<<<< HEAD
                 imageDisplay = null;
-=======
->>>>>>> 41dc5f16a602f12e7604aaa66fb6b5525c937d3a
             }
+
             catch (Exception except)
             {
 
